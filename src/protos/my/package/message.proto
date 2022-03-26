@@ -1,0 +1,8 @@
+syntax = "proto3";
+package my.package;
+
+import "google/type/money.proto"; // this came from googleapis-common-proto
+
+message Message {
+  google.type.Money amount = 1;
+}
