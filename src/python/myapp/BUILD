@@ -16,6 +16,7 @@ python_distribution(
     name="dist",
     dependencies=[
         ":myapp",
+        "!!src/protos/google/type:type",
     ],
     provides=python_artifact(
         name="my-app",
